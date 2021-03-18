@@ -1,0 +1,16 @@
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.exe
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.deps.json
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.runtimeconfig.json
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.runtimeconfig.dev.json
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.dll
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\ref\WinFormsApp_LanguageTraining.dll
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\WinFormsApp_LanguageTraining.pdb
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.csprojAssemblyReference.cache
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.AssemblyInfoInputs.cache
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.AssemblyInfo.cs
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.csproj.CoreCompileInputs.cache
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.dll
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\ref\WinFormsApp_LanguageTraining.dll
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.pdb
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.genruntimeconfig.cache
