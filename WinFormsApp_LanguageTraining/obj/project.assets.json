@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "LanguageLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LanguageLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LanguageLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LanguageLibrary/1.0.0": {
+      "type": "project",
+      "path": "../LanguageLibrary/LanguageLibrary.csproj",
+      "msbuildProject": "../LanguageLibrary/LanguageLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "LanguageLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\naree\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj": {
+              "projectPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,3 +14,10 @@ C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\De
 C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\ref\WinFormsApp_LanguageTraining.dll
 C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.pdb
 C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.genruntimeconfig.cache
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.PracticeForm.resources
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.WordlistForm.resources
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.csproj.GenerateResource.cache
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.NewListForm.resources
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\LanguageLibrary.dll
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\bin\Debug\net5.0-windows\LanguageLibrary.pdb
+C:\Users\naree\RiderProjects\LanguageLibrary\WinFormsApp_LanguageTraining\obj\Debug\net5.0-windows\WinFormsApp_LanguageTraining.csproj.CopyComplete

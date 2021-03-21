@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "WinFormsApp_LanguageTraining/1.0.0": {
+        "dependencies": {
+          "LanguageLibrary": "1.0.0"
+        },
         "runtime": {
           "WinFormsApp_LanguageTraining.dll": {}
+        }
+      },
+      "LanguageLibrary/1.0.0": {
+        "runtime": {
+          "LanguageLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WinFormsApp_LanguageTraining/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LanguageLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
