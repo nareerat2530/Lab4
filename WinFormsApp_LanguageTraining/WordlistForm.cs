@@ -51,7 +51,6 @@ namespace WinFormsApp_LanguageTraining
 
         private void AddWordbutton_Click(object sender, EventArgs e)
         {
-            if (WorddataGridView.RowCount == 0) return;
             WorddataGridView.Rows.Add("");
         }
 
@@ -84,27 +83,28 @@ namespace WinFormsApp_LanguageTraining
             {
                 var translations = new string[_wordList.Languages.Length];
 
+
                 for (var j = 0; j < translations.Length; j++)
                 {
-                    if (WorddataGridView.Rows[i].Cells[j].Value == null) break;
+                    if (WorddataGridView.Rows[i].Cells[j].Value == null ||
+                        string.IsNullOrWhiteSpace(WorddataGridView.Rows[i].Cells[j].Value.ToString()))
+                    {
+                        MessageBox.Show("Before pressing save make sure all languages have translations");
+                        WorddataGridView.Rows.RemoveAt(i);
+                        break;
+                    }
 
                     translations[j] = WorddataGridView.Rows[i].Cells[j].Value.ToString();
                 }
 
-                if (!translations.Contains(string.Empty)) _wordList.Add(translations);
+
+                if (!translations.Contains(null) || translations.Contains(string.Empty)) _wordList.Add(translations);
             }
 
 
             _wordList.Save();
         }
 
-        private void Exitbutton_Click(object sender, EventArgs e)
-        {
-            DialogResult Exitbutton;
-            Exitbutton = MessageBox.Show("Confirm if you want to exit", "Save DataGirdView", MessageBoxButtons.YesNo,
-                MessageBoxIcon.Information);
-            if (Exitbutton == DialogResult.Yes) Application.Exit();
-        }
 
         private void NewListbutton_Click(object sender, EventArgs e)
         {
@@ -123,8 +123,16 @@ namespace WinFormsApp_LanguageTraining
             }
             else
             {
-                MessageBox.Show("There is no word to practice. Please choose another file name");
+                MessageBox.Show("There are no words to practice with. Please choose another list or add words");
             }
+        }
+
+        private void ExitButton_Click_1(object sender, EventArgs e)
+        {
+            DialogResult Exitbutton;
+            Exitbutton = MessageBox.Show("Confirm if you want to exit", "Save DataGirdView", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Information);
+            if (Exitbutton == DialogResult.Yes) Application.Exit();
         }
     }
 }

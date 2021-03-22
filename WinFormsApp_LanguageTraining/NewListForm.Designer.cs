@@ -54,7 +54,7 @@ namespace WinFormsApp_LanguageTraining
             this.NewlisttextBox.Name = "NewlisttextBox";
             this.NewlisttextBox.Size = new System.Drawing.Size(181, 23);
             this.NewlisttextBox.TabIndex = 1;
-            this.NewlisttextBox.TextChanged += new System.EventHandler(this.NewlisttextBox_TextChanged);
+            this.NewlisttextBox.TextChanged += new System.EventHandler(this.NewlistTextBox_TextChanged);
             // 
             // Languagelabel
             // 
@@ -73,7 +73,7 @@ namespace WinFormsApp_LanguageTraining
             this.Cancelbutton.TabIndex = 4;
             this.Cancelbutton.Text = "Cancel";
             this.Cancelbutton.UseVisualStyleBackColor = true;
-            this.Cancelbutton.Click += new System.EventHandler(this.Cancelbutton_Click);
+            this.Cancelbutton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // Okbutton
             // 
@@ -83,7 +83,7 @@ namespace WinFormsApp_LanguageTraining
             this.Okbutton.TabIndex = 5;
             this.Okbutton.Text = "OK";
             this.Okbutton.UseVisualStyleBackColor = true;
-            this.Okbutton.Click += new System.EventHandler(this.Okbutton_Click);
+            this.Okbutton.Click += new System.EventHandler(this.OkButton_Click);
             // 
             // fileSystemWatcher1
             // 

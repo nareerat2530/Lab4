@@ -12,7 +12,7 @@ namespace WinFormsApp_LanguageTraining
             InitializeComponent();
         }
 
-        private void Okbutton_Click(object sender, EventArgs e)
+        private void OkButton_Click(object sender, EventArgs e)
         {
             if (NewlisttextBox.Text == null || string.IsNullOrWhiteSpace(NewlisttextBox.Text))
             {
@@ -34,12 +34,12 @@ namespace WinFormsApp_LanguageTraining
             Close();
         }
 
-        private void Cancelbutton_Click(object sender, EventArgs e)
+        private void CancelButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void NewlisttextBox_TextChanged(object sender, EventArgs e)
+        private void NewlistTextBox_TextChanged(object sender, EventArgs e)
         {
             textBox1.Clear();
         }

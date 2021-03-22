@@ -37,10 +37,10 @@ namespace WinFormsApp_LanguageTraining
         }
 
 
-        private void okbutton_Click(object sender, EventArgs e)
+        private void Okbutton_Click(object sender, EventArgs e)
         {
             var input = TranslateBox.Text;
-            if (input == _practiceWord.Translations[_practiceWord.ToLanguage].ToLower())
+            if (input.ToLower() == _practiceWord.Translations[_practiceWord.ToLanguage].ToLower())
             {
                 MessageBox.Show("That is correct");
                 _points++;

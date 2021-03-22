@@ -39,7 +39,7 @@
             this.WordCountlabel = new System.Windows.Forms.Label();
             this.WorldCounttextBox = new System.Windows.Forms.TextBox();
             this.Savebutton = new System.Windows.Forms.Button();
-            this.Exitbutton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.WorddataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,22 +141,22 @@
             this.Savebutton.UseVisualStyleBackColor = true;
             this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
-            // Exitbutton
+            // ExitButton
             // 
-            this.Exitbutton.Location = new System.Drawing.Point(667, 401);
-            this.Exitbutton.Name = "Exitbutton";
-            this.Exitbutton.Size = new System.Drawing.Size(75, 23);
-            this.Exitbutton.TabIndex = 10;
-            this.Exitbutton.Text = "Exit";
-            this.Exitbutton.UseVisualStyleBackColor = true;
-            this.Exitbutton.Click += new System.EventHandler(this.Exitbutton_Click);
+            this.ExitButton.Location = new System.Drawing.Point(667, 401);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(75, 23);
+            this.ExitButton.TabIndex = 10;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click_1);
             // 
             // WordlistForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Exitbutton);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.Savebutton);
             this.Controls.Add(this.WorldCounttextBox);
             this.Controls.Add(this.WordCountlabel);
@@ -189,6 +189,6 @@
         private System.Windows.Forms.Label WordCountlabel;
         private System.Windows.Forms.TextBox WorldCounttextBox;
         private System.Windows.Forms.Button Savebutton;
-        private System.Windows.Forms.Button Exitbutton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }

@@ -80,7 +80,6 @@ namespace ConsoleUI
 
         private static void NewMenu(string[] args)
         {
-            
             var name = args[1].ToLower();
             var language = new string[args.Length - 2];
 
@@ -111,7 +110,7 @@ namespace ConsoleUI
                     translations[i] = input;
                 }
 
-                wordList.Add(translations);
+                if (enterNothing) wordList.Add(translations);
             }
         }
 
@@ -155,7 +154,7 @@ namespace ConsoleUI
             for (var i = 0; i < languageIndex.Length; i++)
                 if (args[2] == languageIndex[i])
                     return i;
-            wordList.Save();
+            wordList?.Save();
             return 0;
         }
 

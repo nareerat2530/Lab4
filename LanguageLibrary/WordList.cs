@@ -55,9 +55,9 @@ namespace LanguageLibrary
 
         public void Add(params string[] translations)
         {
-            _words.Add(new Word(translations));
             if (translations.Length != Languages.Length)
                 throw new ArgumentException("Not correct amount of translations");
+            _words.Add(new Word(translations));
         }
 
         public bool Remove(int translation, string word)
