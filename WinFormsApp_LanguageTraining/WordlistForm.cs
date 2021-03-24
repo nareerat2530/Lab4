@@ -24,7 +24,6 @@ namespace WinFormsApp_LanguageTraining
 
             var list = WordList.GetLists();
             foreach (var i in list) listBox.Items.Add(Path.GetFileName(i).Split('.')[0]);
-
         }
 
         private void ListBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -34,10 +33,9 @@ namespace WinFormsApp_LanguageTraining
             Practicebutton.Enabled = true;
             AddWordbutton.Enabled = true;
 
-            var name = listBox.GetItemText(listBox.SelectedItem).ToString();
-            
+            var name = listBox.GetItemText(listBox.SelectedItem);
+
             _wordList = WordList.LoadList(name);
-        
 
 
             if (_wordList == null)
@@ -49,7 +47,7 @@ namespace WinFormsApp_LanguageTraining
             WorddataGridView.Columns.Clear();
             WorddataGridView.Rows.Clear();
             WorddataGridView.Refresh();
-            
+
             WorldCounttextBox.Text = _wordList.Count().ToString();
             foreach (var item in languages) WorddataGridView.Columns.Add(item, item);
 
@@ -57,12 +55,12 @@ namespace WinFormsApp_LanguageTraining
         }
 
 
-        private void AddWordbutton_Click(object sender, EventArgs e)
+        private void AddWordButton_Click(object sender, EventArgs e)
         {
             WorddataGridView.Rows.Add("");
         }
 
-        private void Removebutton_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             if (_wordList.Count() == 0) MessageBox.Show("There is no word to remove");
             if (WorddataGridView.CurrentCell == null) return;
@@ -84,9 +82,9 @@ namespace WinFormsApp_LanguageTraining
             WorldCounttextBox.Text = _wordList.Count().ToString();
         }
 
-        private void Savebutton_Click(object sender, EventArgs e)
+        private void SaveButton_Click(object sender, EventArgs e)
         {
-            //var count = WorddataGridView.RowCount;
+            
             for (var i = _wordList.Count(); i < WorddataGridView.RowCount; i++)
             {
                 var translations = new string[_wordList.Languages.Length];
@@ -114,13 +112,13 @@ namespace WinFormsApp_LanguageTraining
         }
 
 
-        private void NewListbutton_Click(object sender, EventArgs e)
+        private void NewListButton_Click(object sender, EventArgs e)
         {
             var newList = new NewListForm();
             newList.Show();
         }
 
-        private void Practicebutton_Click(object sender, EventArgs e)
+        private void PracticeButton_Click(object sender, EventArgs e)
         {
             if (listBox.SelectedItem == null) return;
             var name = listBox.SelectedItem.ToString();
@@ -137,15 +135,14 @@ namespace WinFormsApp_LanguageTraining
 
         private void ExitButton_Click_1(object sender, EventArgs e)
         {
-            DialogResult Exitbutton;
-            Exitbutton = MessageBox.Show("Confirm if you want to exit", "Save DataGirdView", MessageBoxButtons.YesNo,
+            DialogResult exitButton;
+            exitButton = MessageBox.Show("Confirm if you want to exit", "Save DataGirdView", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information);
-            if (Exitbutton == DialogResult.Yes) Application.Exit();
+            if (exitButton == DialogResult.Yes) Application.Exit();
         }
 
         private void WordlistForm_Activated(object sender, EventArgs e)
         {
-
             listBox.Items.Clear();
             var list = WordList.GetLists();
             foreach (var i in list) listBox.Items.Add(Path.GetFileName(i).Split('.')[0]);

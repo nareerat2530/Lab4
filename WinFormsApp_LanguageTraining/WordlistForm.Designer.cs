@@ -51,7 +51,7 @@
             this.AddWordbutton.TabIndex = 0;
             this.AddWordbutton.Text = "Add word";
             this.AddWordbutton.UseVisualStyleBackColor = true;
-            this.AddWordbutton.Click += new System.EventHandler(this.AddWordbutton_Click);
+            this.AddWordbutton.Click += new System.EventHandler(this.AddWordButton_Click);
             // 
             // Removebutton
             // 
@@ -61,7 +61,7 @@
             this.Removebutton.TabIndex = 1;
             this.Removebutton.Text = "Remove word";
             this.Removebutton.UseVisualStyleBackColor = true;
-            this.Removebutton.Click += new System.EventHandler(this.Removebutton_Click);
+            this.Removebutton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Practicebutton
             // 
@@ -71,7 +71,7 @@
             this.Practicebutton.TabIndex = 2;
             this.Practicebutton.Text = "Practice";
             this.Practicebutton.UseVisualStyleBackColor = true;
-            this.Practicebutton.Click += new System.EventHandler(this.Practicebutton_Click);
+            this.Practicebutton.Click += new System.EventHandler(this.PracticeButton_Click);
             // 
             // NewListbutton
             // 
@@ -81,7 +81,7 @@
             this.NewListbutton.TabIndex = 3;
             this.NewListbutton.Text = "Add new list";
             this.NewListbutton.UseVisualStyleBackColor = true;
-            this.NewListbutton.Click += new System.EventHandler(this.NewListbutton_Click);
+            this.NewListbutton.Click += new System.EventHandler(this.NewListButton_Click);
             // 
             // listBox
             // 
@@ -139,7 +139,7 @@
             this.Savebutton.TabIndex = 9;
             this.Savebutton.Text = "Save";
             this.Savebutton.UseVisualStyleBackColor = true;
-            this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
+            this.Savebutton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // ExitButton
             // 

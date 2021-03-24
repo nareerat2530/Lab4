@@ -16,7 +16,7 @@ namespace LanguageLibrary
             Languages = languages;
         }
 
-        public string Name { get; }
+        private string Name { get; }
         public string[] Languages { get; }
 
         public static string[] GetLists()
