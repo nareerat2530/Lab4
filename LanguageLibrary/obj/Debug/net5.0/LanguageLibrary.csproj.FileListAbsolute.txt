@@ -10,3 +10,15 @@ C:\Users\naree\RiderProjects\LanguageLibrary\LanguageLibrary\obj\Debug\net5.0\La
 C:\Users\naree\RiderProjects\LanguageLibrary\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.dll
 C:\Users\naree\RiderProjects\LanguageLibrary\LanguageLibrary\obj\Debug\net5.0\ref\LanguageLibrary.dll
 C:\Users\naree\RiderProjects\LanguageLibrary\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.pdb
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\bin\Debug\net5.0\LanguageLibrary.deps.json
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\bin\Debug\net5.0\LanguageLibrary.dll
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\bin\Debug\net5.0\ref\LanguageLibrary.dll
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\bin\Debug\net5.0\LanguageLibrary.pdb
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.csprojAssemblyReference.cache
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.AssemblyInfoInputs.cache
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.AssemblyInfo.cs
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.csproj.CoreCompileInputs.cache
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.dll
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\ref\LanguageLibrary.dll
+C:\Users\naree\Source\Repos\Lab4\LanguageLibrary\obj\Debug\net5.0\LanguageLibrary.pdb

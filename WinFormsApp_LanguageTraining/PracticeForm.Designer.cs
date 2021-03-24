@@ -59,11 +59,11 @@ namespace WinFormsApp_LanguageTraining
             // 
             // TranslatetextBox1
             // 
-            this.TranslatetextBox1.Location = new System.Drawing.Point(246, 119);
+            this.TranslatetextBox1.Location = new System.Drawing.Point(231, 119);
             this.TranslatetextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TranslatetextBox1.Name = "TranslatetextBox1";
             this.TranslatetextBox1.ReadOnly = true;
-            this.TranslatetextBox1.Size = new System.Drawing.Size(274, 23);
+            this.TranslatetextBox1.Size = new System.Drawing.Size(356, 23);
             this.TranslatetextBox1.TabIndex = 3;
             // 
             // Pointlabel

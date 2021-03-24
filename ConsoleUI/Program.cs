@@ -215,7 +215,7 @@ namespace ConsoleUI
                 var practiceWord = wordList.GetWordToPractice();
 
                 Console.WriteLine(
-                    $"Can you translate {languageArray[practiceWord.FromLanguage]} word {practiceWord.Translations[practiceWord.FromLanguage]}");
+                    $"you need to translate {languageArray[practiceWord.FromLanguage]} word \"{practiceWord.Translations[practiceWord.FromLanguage]}\"");
 
                 Console.WriteLine($"Please write the word in {languageArray[practiceWord.ToLanguage]}");
                 var input = Console.ReadLine().ToLower();

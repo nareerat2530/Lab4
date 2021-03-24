@@ -20,10 +20,11 @@ namespace WinFormsApp_LanguageTraining
             Removebutton.Enabled = false;
             Savebutton.Enabled = false;
             Practicebutton.Enabled = false;
+            AddWordbutton.Enabled = false;
 
             var list = WordList.GetLists();
-
             foreach (var i in list) listBox.Items.Add(Path.GetFileName(i).Split('.')[0]);
+
         }
 
         private void ListBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -31,8 +32,14 @@ namespace WinFormsApp_LanguageTraining
             Removebutton.Enabled = true;
             Savebutton.Enabled = true;
             Practicebutton.Enabled = true;
-            var name = listBox.GetItemText(listBox.SelectedItem);
+            AddWordbutton.Enabled = true;
+
+            var name = listBox.GetItemText(listBox.SelectedItem).ToString();
+            
             _wordList = WordList.LoadList(name);
+        
+
+
             if (_wordList == null)
                 return;
 
@@ -42,6 +49,7 @@ namespace WinFormsApp_LanguageTraining
             WorddataGridView.Columns.Clear();
             WorddataGridView.Rows.Clear();
             WorddataGridView.Refresh();
+            
             WorldCounttextBox.Text = _wordList.Count().ToString();
             foreach (var item in languages) WorddataGridView.Columns.Add(item, item);
 
@@ -133,6 +141,14 @@ namespace WinFormsApp_LanguageTraining
             Exitbutton = MessageBox.Show("Confirm if you want to exit", "Save DataGirdView", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information);
             if (Exitbutton == DialogResult.Yes) Application.Exit();
+        }
+
+        private void WordlistForm_Activated(object sender, EventArgs e)
+        {
+
+            listBox.Items.Clear();
+            var list = WordList.GetLists();
+            foreach (var i in list) listBox.Items.Add(Path.GetFileName(i).Split('.')[0]);
         }
     }
 }

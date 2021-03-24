@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\WinFormsApp_LanguageTraining\\WinFormsApp_LanguageTraining.csproj",
+      "projectUniqueName": "C:\\Users\\naree\\source\\repos\\Lab4\\WinFormsApp_LanguageTraining\\WinFormsApp_LanguageTraining.csproj",
       "projectName": "WinFormsApp_LanguageTraining",
-      "projectPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\WinFormsApp_LanguageTraining\\WinFormsApp_LanguageTraining.csproj",
+      "projectPath": "C:\\Users\\naree\\source\\repos\\Lab4\\WinFormsApp_LanguageTraining\\WinFormsApp_LanguageTraining.csproj",
       "packagesPath": "C:\\Users\\naree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\WinFormsApp_LanguageTraining\\obj\\",
+      "outputPath": "C:\\Users\\naree\\source\\repos\\Lab4\\WinFormsApp_LanguageTraining\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj": {
-              "projectPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj"
+            "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj": {
+              "projectPath": "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj"
             }
           }
         }

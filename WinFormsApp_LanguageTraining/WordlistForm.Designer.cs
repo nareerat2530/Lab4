@@ -170,6 +170,7 @@
             this.Name = "WordlistForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Language training";
+            this.Activated += new System.EventHandler(this.WordlistForm_Activated);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.WorddataGridView)).EndInit();
             this.ResumeLayout(false);

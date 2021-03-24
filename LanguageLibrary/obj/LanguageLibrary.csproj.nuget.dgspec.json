@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj": {}
+    "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj": {
+    "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj",
         "projectName": "LanguageLibrary",
-        "projectPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\LanguageLibrary.csproj",
+        "projectPath": "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\LanguageLibrary.csproj",
         "packagesPath": "C:\\Users\\naree\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naree\\RiderProjects\\LanguageLibrary\\LanguageLibrary\\obj\\",
+        "outputPath": "C:\\Users\\naree\\source\\repos\\Lab4\\LanguageLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
