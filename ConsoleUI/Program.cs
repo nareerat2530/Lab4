@@ -234,7 +234,7 @@ namespace ConsoleUI
                 }
 
                 if (!string.IsNullOrWhiteSpace(input)) continue;
-                Console.WriteLine($"You have got {point} out of {tries} times");
+                Console.WriteLine($"You have got {point} points out of {tries} times");
                 break;
             }
         }
