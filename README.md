@@ -1,2 +1,1 @@
-# Lab4
-LanguageTraining
+#  an application for training vocabulary
